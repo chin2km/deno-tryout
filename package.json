@@ -4,7 +4,7 @@
   "description": "A barebone deno project",
   "main": "index.js",
   "scripts": {
-    "start": "./scripts/start"
+    "start": "watch ./scripts/start"
   },
   "author": "",
   "license": "ISC",

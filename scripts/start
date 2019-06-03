@@ -3,4 +3,4 @@
 set -e
 export PATH=node_modules/.bin:$PATH
 
-npx deno run ./src/index.ts
+npx deno run src/index.ts
