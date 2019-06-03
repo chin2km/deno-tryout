@@ -1,5 +1,5 @@
-import { ElectricCar } from "./ElectricCar.ts";
-import { AutomobileMixin } from "./Automobile.ts";
+import { ElectricCar } from "./classes/ElectricCar.ts";
+import { AutomobileMixin } from "./mixins/Automobile.ts";
 
 const instance = new ElectricCar("Tesla");
 instance.printBrandName();
