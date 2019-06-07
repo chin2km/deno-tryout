@@ -1,8 +1,10 @@
+import { BG, COLORS, log } from "../utils/logger.ts"
+
 export const AutomobileMixin = {
     honk(arg: string) {
-        console.log(`Honk honk - ${arg}`);
+        log(` Honk honk - ${arg} `, BG.bgBlue, COLORS.white)
     },
     steer() {
-        console.log("Moving forward 🚀");
-    }
+        log(" Moving forward 🚀 ")
+    },
 }
